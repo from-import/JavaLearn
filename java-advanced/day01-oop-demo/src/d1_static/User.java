@@ -1,4 +1,4 @@
-package com.xxx.staticDemo.d1_static;
+package d1_static;
 
 public class User {
     // 记录在线人数
@@ -6,8 +6,11 @@ public class User {
 
     public static int onlineNumber = 100;
 
-    public static void main() {
+    private String name;
+    private int age;
+
+    public static void main(String[] args) {
         onlineNumber += 1;
+
     }
 }
-
